@@ -21,7 +21,7 @@ ArrayList
         public void add(int index, E element): 在集合中的特定位置加入特定元素
 
     ArrayList 常用方法：(E为当前集合中数据类型，如：int、String...)
-        public boolean remove(Object o): 删除指定的元素，返回是否成功
+        public boolean remove(Object o): 删除指定的元素，返回是否成功，若有重复元素，则只删除第一个
         public E remove(int index): 删除指定索引处的元素，返回被删除的元素
         public E set(int index, E element): 修改指定索引处的元素，返回被修改的元素
         public E get(int index): 返回索引处的元素
