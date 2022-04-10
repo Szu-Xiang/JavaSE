@@ -1,6 +1,6 @@
 ArrayList
 
-ArrayList 构造方法：
+        ArrayList 构造方法：
         ArrayList list = new ArrayList(): 创建一个空的集合对象
         可存放任意类型的数据，数据不严谨，改进：
         ArrayList<String> list = new ArrayList()，进行数据类型限制，
